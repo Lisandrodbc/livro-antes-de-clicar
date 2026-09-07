@@ -1,0 +1,11 @@
+# Agent files
+.agents/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary files
+*.log
+*.tmp
