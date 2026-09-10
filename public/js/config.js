@@ -20,7 +20,7 @@ const HOTMART_CONFIG = {
   domain: "livroantesdeclicar.com.br",
 
   // Configuração da Oferta
-  format: "Livro Digital (PDF) + Versão Impressa",
+  format: "Livro Digital (PDF)",
   
   // Parâmetros de Analytics (opcional para rastreamento de conversão)
   trackClicks: true
