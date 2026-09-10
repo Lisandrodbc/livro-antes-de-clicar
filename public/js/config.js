@@ -7,11 +7,11 @@
  */
 
 const HOTMART_CONFIG = {
+  // URL da página do produto na Hotmart
+  productUrl: "https://hotmart.com/pt-br/marketplace/produtos/antes-de-clicar-como-reconhecer-riscos-e-tomar-decisoes-mais-seguras-na-internet/E107471425N",
+  
   // URL direta de checkout do produto na Hotmart
   checkoutUrl: "https://pay.hotmart.com/E107471425N",
-  
-  // URL da página do produto/afiliados na Hotmart
-  productUrl: "https://go.hotmart.com/E107471425N?dp=1",
 
   // Dados Editoriais
   bookTitle: "Antes de Clicar",

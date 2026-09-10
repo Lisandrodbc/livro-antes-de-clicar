@@ -18,15 +18,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
- * Aplica a HOTMART_CHECKOUT_URL em todos os botões CTA da página.
- * Garante que a URL não precise ser duplicada no HTML.
+ * Aplica a URL da página do produto Hotmart em todos os botões CTA da página.
  */
 function initHotmartCheckoutLinks() {
-  const checkoutUrl = window.HOTMART_CONFIG ? window.HOTMART_CONFIG.checkoutUrl : "https://pay.hotmart.com/E107471425N";
+  const targetUrl = window.HOTMART_CONFIG ? window.HOTMART_CONFIG.productUrl : "https://hotmart.com/pt-br/marketplace/produtos/antes-de-clicar-como-reconhecer-riscos-e-tomar-decisoes-mais-seguras-na-internet/E107471425N";
   const ctaButtons = document.querySelectorAll('[data-hotmart-cta]');
 
   ctaButtons.forEach(button => {
-    button.setAttribute('href', checkoutUrl);
+    button.setAttribute('href', targetUrl);
     button.setAttribute('target', '_blank');
     button.setAttribute('rel', 'noopener noreferrer');
   });
